@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SokoGarden"
+        android:text=" 🔰 SokoGarden 🔰"
         android:textSize="38sp"
         android:textAlignment="center"
         android:textStyle="bold|italic"
@@ -31,28 +31,49 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Signup"
+            android:text=" 👤Signup"
             android:textSize="25sp"
             android:padding="10dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="10dp"
             android:backgroundTint="#446D733C"
             android:textColor="#181518"
-            android:fontFamily="times new roman"
+            android:fontFamily="cursive"
             android:id="@+id/signupBtn" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Signin"
+            android:text=" 👮Signin"
             android:textSize="25sp"
             android:padding="10dp"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="10dp"
             android:backgroundTint="#446D733C"
             android:textColor="#181518"
-            android:fontFamily="times new roman"
+            android:fontFamily="cursive"
             android:id="@+id/signinBtn" />
+
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:visibility="gone"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/logoutBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#ED0909"
+            android:textColor="#F2F2F2"
+            android:visibility="gone"/>
 
 
     </LinearLayout>
